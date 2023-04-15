@@ -1,0 +1,16 @@
+@import 'variable';
+@import 'boostrap';
+
+* {
+  font-family: 'Noto Sans', Arial, sans-serif;
+  color: white;
+}
+p {
+  margin-bottom: 0px;
+}
+body {
+  background: url('../image/list_bg.jpeg');
+  background-position: top;
+  background-repeat: repeat;
+  background-size: 100% auto;
+}
