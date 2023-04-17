@@ -11,7 +11,6 @@ const Card = ({ list }) => {
   return (
     <div className={styles.pokemon}>
       <div className={styles.picture}>
-        {/* <Image src={list.sprites.front_shiny} alt={list.species.name} /> */}
         <img
           src={list.sprites.other['official-artwork'].front_default}
           alt={list.species.name}

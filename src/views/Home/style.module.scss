@@ -20,12 +20,12 @@
 
   .list {
     display: grid;
-    grid-template-columns: calc(100% / 4) calc(100% / 4) calc(100% / 4) calc(100% / 4);
-    gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
     .pokemon {
-      background: transparent url('../../assets/image/list_pokemon_bg.png') 50% 50% no-repeat;
-      background-size: auto 100%;
-      background-position: center;
+      background: url('../../assets/image/list_pokemon_bg.png') no-repeat;
+      background-size: 100% 100%;
+      background-position: center center;
       height: 500px;
       margin-bottom: 1em;
       display: flex;
@@ -97,3 +97,5 @@
     }
   }
 }
+
+@import './responsive.module.scss';

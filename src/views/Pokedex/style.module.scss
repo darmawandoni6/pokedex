@@ -6,10 +6,6 @@
   padding: 20px 10px;
   .header {
     text-align: center;
-    .id {
-      font-size: 39px;
-      color: #b3eafe;
-    }
     .name {
       font-size: 5rem;
       color: #fff;
@@ -118,3 +114,5 @@
     }
   }
 }
+
+@import './responsive.module.scss';
