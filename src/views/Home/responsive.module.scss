@@ -2,9 +2,6 @@
   .main {
     .list {
       grid-template-columns: repeat(3, 1fr);
-      .pokemon {
-        height: 355px;
-      }
     }
   }
 }

@@ -23,56 +23,29 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     .pokemon {
-      background: url('../../assets/image/list_pokemon_bg.png') no-repeat;
-      background-size: 100% 100%;
-      background-position: center center;
-      height: 500px;
+      padding: 20px;
+      border-radius: 12px;
       margin-bottom: 1em;
       display: flex;
       flex-direction: column;
       .picture {
-        height: 275px;
+        height: 150px;
         width: auto;
         display: flex;
         align-items: center;
         justify-content: center;
         img {
-          max-height: 150px;
+          max-height: 100%;
           width: auto;
           cursor: pointer;
         }
       }
       .desc {
-        flex: 1;
-        padding: 15px 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        .no {
-          font-size: 21px;
-          color: #b4ebff;
-        }
-        .name {
-          font-size: 31px;
-          color: white;
-          text-transform: capitalize;
-        }
-        .type {
-          display: flex;
-          gap: 10px;
-          margin-top: 20px;
-          .box {
-            width: 50%;
-            border-radius: 20px;
-            text-transform: capitalize;
-            color: #fff;
-            text-align: center;
-            display: block;
-            text-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
-            height: 30px;
-            line-height: 30px;
-            @include types;
-          }
+        height: 65px;
+        text-align: center;
+        text-transform: capitalize;
+        h3 {
+          line-height: 65px;
         }
       }
     }

@@ -18,6 +18,7 @@ const index = () => {
   React.useEffect(() => {
     getAPi(load);
   }, []);
+
   const getAPi = async ({ page, limit }) => {
     for (let index = page; index <= limit; index++) {
       const { data } = await httpService.get(`/pokemon/${index}`);
